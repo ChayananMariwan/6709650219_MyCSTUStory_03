@@ -331,13 +331,51 @@ nav p {
         margin-top: -30px;
         padding-left: 950px;
         font-size: 16px;
-        font-family: kanit;
+
     }
 }
 
 @media screen and (max-width: 550px) {
     body {
         background-color: #6faed3;
+    }
+
+    .edu {
+        font-size: 30px;
+        padding: 10px;
+        padding-left: 50px;
+    }
+
+    .subedu {
+        margin-top: -350px;
+        margin-right: -100px;
+        padding-left: 80px;
+        font-size: 14px;
+    }
+
+    #logotu {
+        width: 300px;
+        margin-left: 100px;
+        margin-top: 150px;
+        margin-right: 0px;
+    }
+
+    #logocs {
+        width: 150px;
+        margin-left: 180px;
+    }
+
+    .contact {
+        font-size: 30px;
+        margin-top: -180px;
+        margin-left: 350px;
+    }
+
+    .subcon {
+        margin-top: -30px;
+        padding-left: 320px;
+        font-size: 10px;
+
     }
 }
 
