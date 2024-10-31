@@ -82,6 +82,43 @@ header ul li {
     margin-right: -500px;
 }
 
+@media screen and (max-width: 550px) {
+    header h1 {
+        font-size: 20px;
+        padding: 30px;
+        padding-left: 30px;
+        margin-right: -100px;
+
+    }
+
+    header ul li {
+        font-size: 16px;
+        padding: 30px;
+    }
+
+    .F {
+        padding-right: 50px;
+    }
+
+    .subhead {
+        float: left;
+        padding-top: 60px;
+        margin-left: -20px;
+    }
+
+    #redball {
+        width: 25px;
+    }
+
+    #yellowball {
+        width: 30px;
+    }
+
+    #blueball {
+        width: 15px;
+    }
+}
+
 /*--------------- Body 1 ----------------*/
 nav {
     box-sizing: border-box;
@@ -128,28 +165,6 @@ nav {
     transform: scale(1.2);
 }
 
-@media screen and (max-width: 1300px) {
-    #Me {
-        margin-right: 200px;
-    }
-
-    .name {
-        font-size: 50px;
-        margin-bottom: 50px;
-        margin-right: 200px;
-    }
-
-    .about {
-        font-size: 16px;
-        margin-top: -300px;
-    }
-
-    nav p {
-        font-size: 14px;
-    }
-
-}
-
 .about {
     font-family: "DM Serif Text", serif;
     color: beige;
@@ -178,6 +193,60 @@ nav p {
     display: inline-block;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1300px) {
+    #Me {
+        margin-right: 200px;
+    }
+
+    .name {
+        font-size: 50px;
+        margin-bottom: 50px;
+        margin-right: 200px;
+    }
+
+    .about {
+        font-size: 16px;
+        margin-top: -300px;
+    }
+
+    nav p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #Me {
+
+        margin-left: 40px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        width: 200px;
+    }
+
+    .name {
+        font-size: 35px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+
+    .about {
+        font-size: 12px;
+        margin-top: -230px;
+    }
+
+    nav p {
+        font-size: 6px;
+    }
+
+    .button {
+
+        font-size: 8px;
+
+    }
+}
+
 
 /*--------------- Body 2 ----------------*/
 .edu {
@@ -263,6 +332,12 @@ nav p {
         padding-left: 950px;
         font-size: 16px;
         font-family: kanit;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        background-color: #6faed3;
     }
 }
 
