@@ -1,0 +1,819 @@
+@import url(https://fonts.google.com/specimen/Prompt);
+@import url(https://fonts.adobe.com/fonts/joly-headline);
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=DM+Serif+Text:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap');
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   index.html   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+body {
+    background-color: #FEF7D4;
+    margin: -10px;
+}
+
+/*--------------- Header ----------------*/
+header {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    height: 120px;
+}
+
+header h1 {
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left;
+    float: left;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+header ul li {
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    float: right;
+    padding: 20px;
+    box-sizing: content-box;
+    list-style: none;
+    display: block;
+}
+
+.mycs:hover {
+    color: #b4a4a7;
+}
+
+.F {
+    padding-right: 200px;
+}
+
+.F:hover {
+    color: #106ad1;
+}
+
+.J {
+    padding-right: 30px;
+}
+
+.J:hover {
+    color: #51c1dd;
+}
+
+#redball {
+    width: 30px;
+}
+
+#yellowball {
+    width: 40px;
+}
+
+#blueball {
+    width: 20px;
+}
+
+.subhead {
+    float: right;
+    padding-top: 30px;
+    margin-right: -500px;
+}
+
+/*--------------- Body 1 ----------------*/
+nav {
+    box-sizing: border-box;
+    height: 400px;
+    width: 100%;
+    background-color: #975F46;
+    margin-top: -45px;
+}
+
+#Me {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 350px;
+    margin-bottom: 30px;
+    width: 300px;
+    clear: both;
+    float: left;
+    box-shadow: 5px -1px 10px 7px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#Me:hover {
+    transform: scale(1.2);
+}
+
+.name {
+    font-family: "DM Serif Text", serif;
+    color: white;
+    font-weight: 300;
+    font-size: 55px;
+    padding: 80px;
+    margin-right: 260px;
+    text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.2;
+    transition-timing-function: ease;
+}
+
+.name:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 1300px) {
+    #Me {
+        margin-right: 200px;
+    }
+
+    .name {
+        font-size: 50px;
+        margin-bottom: 50px;
+        margin-right: 200px;
+    }
+
+    .about {
+        font-size: 16px;
+        margin-top: -300px;
+    }
+
+    nav p {
+        font-size: 14px;
+    }
+
+
+}
+
+.about {
+    font-family: "DM Serif Text", serif;
+    color: beige;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -220px;
+    padding: 100px;
+    margin-left: -100px;
+    text-decoration: underline;
+}
+
+nav p {
+    font-family: kanit;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -100px;
+}
+
+.button {
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 242, 242);
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*--------------- Body 2 ----------------*/
+.edu {
+    color: #583220;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: "DM Serif Text", serif;
+    padding: 30px;
+    padding-left: 100px;
+    text-align: left;
+    clear: both;
+}
+
+.subedu {
+    margin-top: -160px;
+    padding-left: 150px;
+    font-size: 18px;
+    font-family: kanit;
+}
+
+.contact {
+    color: #583220;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: "DM Serif Text", serif;
+    margin-top: -280px;
+    margin-left: 1100px;
+}
+
+.subcon {
+    margin-top: -30px;
+    padding-left: 1100px;
+    font-size: 18px;
+    font-family: kanit;
+}
+
+#logotu {
+    width: 400px;
+    margin-left: 560px;
+    margin-top: -350px;
+    text-align: center;
+}
+
+#logocs {
+    width: 180px;
+    margin-left: 700px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/*--------------- Body 3 ----------------*/
+.hobby {
+    font-family: "DM Serif Text", serif;
+    color: #583220;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+    clear: both;
+}
+
+.text1:hover {
+    color: #26ae5a;
+}
+
+.text2:hover {
+    color: #e2a964;
+}
+
+.text3:hover {
+    color: #6faed3;
+}
+
+#music {
+    width: 70%;
+    text-align: center;
+    box-shadow: 4px 3px 4px 7px rgba(0, 0, 0, 0.19);
+}
+
+#book {
+    width: 60%;
+    text-align: center;
+    box-shadow: 4px 3px 4px 7px rgba(0, 0, 0, 0.19);
+}
+
+#gui {
+    width: 75%;
+    text-align: center;
+    box-shadow: 4px 3px 4px 7px rgba(0, 0, 0, 0.19);
+}
+
+/*--------------- Video ----------------*/
+.box {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 200px;
+    background-color: #975F46;
+    height: 600px;
+}
+
+.myvdo {
+    font-family: "DM Serif Text", serif;
+    color: white;
+    font-weight: 300;
+    font-size: 50px;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.line {
+    background-color: #e0dbd8;
+    height: 2px;
+    margin-top: -40px;
+    margin: 30px;
+    text-align: center;
+}
+
+/*--------------- Thanks ----------------*/
+.thanks:hover {
+    color: #f078a4;
+}
+
+h1 {
+    font-family: "DM Serif Text", serif;
+    color: #583220;
+    font-weight: 300;
+    font-size: 70px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+/*--------------- Footer ----------------*/
+.c {
+    font-family: "DM Serif Text", serif;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(19, 17, 17);
+    margin-top: 300px;
+    height: 100px;
+    float: left;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   myjourney.html   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*--------------- Header ----------------*/
+.BGJ {
+    width: 100%;
+    box-sizing: border-box;
+    height: 750px;
+    padding: 20px;
+    margin-top: -450px;
+    margin-bottom: -300px;
+    background-image: url("resources/BG\ Journey.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerJ ul li {
+    font-family: "DM Serif Text", serif;
+    color: aliceblue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    float: right;
+    padding: 20px;
+    padding-right: 60px;
+    box-sizing: content-box;
+    list-style: none;
+    display: block;
+    margin-bottom: 200px;
+}
+
+#cloud {
+    width: 120px;
+    padding: -30px;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+/*--------------- Body 1 ----------------*/
+article {
+    clear: both;
+    width: 100%;
+    height: 150px;
+    background-color: #FEF7D4;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FEF7D4;
+    margin-bottom: 100px;
+}
+
+#deco {
+    width: 20%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #A37A6F;
+    float: right;
+    margin-top: -12px;
+}
+
+.deco3 {
+    width: 70%;
+    height: 80px;
+    box-sizing: border-box;
+    background-color: #41496E;
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    margin-top: 230px;
+    margin-left: 370px;
+}
+
+.R1 {
+    float: left;
+    text-align: center;
+    padding-left: 450px;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.R1-1 {
+    float: left;
+    text-align: center;
+    padding-left: 250px;
+    margin-bottom: -50px;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.R2 {
+    float: left;
+    text-align: center;
+    padding-left: 580px;
+    margin-top: -20px;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.R2-1 {
+    float: left;
+    text-align: center;
+    padding-left: 250px;
+    margin-top: -20px;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.R3 {
+    float: left;
+    text-align: center;
+    padding-top: -100px;
+    margin-left: -110px;
+    font-size: 25px;
+    font-weight: 1000px;
+}
+
+.R4 {
+    float: left;
+    text-align: center;
+    padding-left: 580px;
+    margin-top: -30px;
+    font-size: 25px;
+    font-weight: 1000px;
+}
+
+.R4-1 {
+    float: left;
+    text-align: center;
+    padding-left: 250px;
+    margin-top: -30px;
+    font-size: 25px;
+    font-weight: 1000px;
+}
+
+/*--------------- Content ----------------*/
+#Journey {
+    clear: both;
+    width: 100%;
+    background-color: #FEF7D4;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FEF7D4;
+    margin-bottom: 150px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#Journey:hover {
+    transform: scale(1.4);
+    color: #9d5a29;
+}
+
+#math {
+    width: 130px;
+    margin-left: -400px;
+    margin-bottom: -30px;
+    clear: both;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#math:hover {
+    transform: scale(1.2);
+}
+
+#read {
+    width: 150px;
+    margin-left: -50px;
+    margin-top: -30px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#read:hover {
+    transform: scale(1.2);
+}
+
+#gradu {
+    width: 250px;
+    margin-left: -550px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#gradu:hover {
+    transform: scale(1.1);
+}
+
+.content1 {
+    width: 35%;
+    background-color: #34303B;
+    padding: 10px;
+    margin-left: 220px;
+    margin-top: -50px;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    height: 300px;
+    margin-bottom: 150px;
+}
+
+.main {
+    width: 30%;
+    font-size: 28px;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: rgb(255, 231, 195);
+    padding: 5px;
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    height: 60px;
+    /*margin-bottom: 50px;*/
+}
+
+.main3 {
+    width: 30%;
+    color: rgb(255, 254, 252);
+    font-size: 28px;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #34303B;
+    padding: 5px;
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    height: 60px;
+    margin-bottom: 0px;
+
+}
+
+.main4 {
+    width: 30%;
+    font-size: 28px;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: rgb(255, 231, 195);
+    padding: 5px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    text-align: center;
+    border: 1px solid rgb(9, 9, 9);
+    float: right;
+    height: 60px;
+
+}
+
+.main1 {
+    width: 30%;
+    color: rgb(255, 254, 252);
+    font-size: 28px;
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #34303B;
+    padding: 5px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    text-align: center;
+    border: 1px solid rgb(9, 9, 9);
+    float: right;
+    height: 60px;
+    /*margin-bottom: 50px;*/
+}
+
+.cont1 {
+    clear: both;
+    color: #e0dbd8;
+    font-family: kanit;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.cont2 {
+    clear: both;
+    color: #131313;
+    font-family: kanit;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.content2 {
+    width: 35%;
+    background-color: rgb(255, 231, 195);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: -50px;
+}
+
+.content3 {
+    width: 35%;
+    background-color: rgb(255, 231, 195);
+    padding: 10px;
+    margin-left: 220px;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    height: 300px;
+}
+
+.content4 {
+    width: 35%;
+    background-color: #34303B;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    height: 300px;
+    margin-left: 0px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   myfuture.html   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*--------------- Header ----------------*/
+.BGF {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    height: 400px;
+    background-image: url("resources/BG\ Future.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#headerF {
+    color: #c3bbb7;
+    font-size: 80px;
+    font-weight: 300;
+    font-family: "DM Serif Text", serif;
+    padding: 30px;
+    padding-top: 90px;
+    text-align: center;
+    clear: both;
+}
+
+/*--------------- Menu Bar ----------------*/
+.menu {
+    box-sizing: border-box;
+    padding: 30px;
+    padding-left: 80px;
+    width: 20%;
+    background-color: #986F66;
+    height: 1300px;
+    text-align: left;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: -300px;
+}
+
+.menuC {
+    font-family: "DM Serif Text", serif;
+    color: #F8E1C9;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 80px;
+}
+
+.contentF {
+    box-sizing: border-box;
+    padding: 200px;
+    margin-top: 80px;
+    width: 80%;
+    background-color: black;
+    height: 450px;
+    text-align: center;
+    border: 1px solid black;
+    float: right;
+}
+
+.do {
+    color: rgb(209, 201, 201);
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "DM Serif Text", serif;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#do:hover {
+    transform: scale(1.4);
+    color: #fdc5e7;
+}
+
+.subcont {
+    box-sizing: border-box;
+    padding: 60px;
+    margin-top: -130px;
+    width: 100%;
+    background-color: rgb(209, 201, 201);
+    height: 300px;
+    text-align: center;
+    border: 1px solid black;
+    color: #131313;
+    font-family: kanit;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.top {
+    width: 40%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: rgb(209, 201, 201);
+    float: right;
+    margin-top: -80px;
+    margin-right: 30px;
+    padding-bottom: -100px;
+    text-align: right;
+    font-family: "Charmonman", cursive;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.last {
+    box-sizing: border-box;
+    padding: 30px;
+    width: 80%;
+    background-color: #FEFEFE;
+    height: 690px;
+    text-align: center;
+    border: 1px solid black;
+    float: right;
+    margin-top: 80px;
+    margin-bottom: -300px;
+}
+
+.finish {
+    font-family: "DM Serif Text", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    color: #87635C;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
+
+#finish:hover {
+    transform: scale(1.4);
+    color: #070707;
+}
+
+#last {
+    width: 400px;
+    text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3;
+    transition-timing-function: ease;
+}
