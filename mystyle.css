@@ -148,7 +148,6 @@ nav {
         font-size: 14px;
     }
 
-
 }
 
 .about {
@@ -227,6 +226,44 @@ nav p {
     margin-left: 700px;
     margin-top: 25px;
     text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .edu {
+        font-size: 48px;
+        padding: 30px;
+        padding-left: 100px;
+    }
+
+    .subedu {
+        margin-right: -100px;
+        padding-left: 150px;
+        font-size: 16px;
+    }
+
+    #logotu {
+        width: 300px;
+        margin-left: 500px;
+        margin-right: 0px;
+    }
+
+    #logocs {
+        width: 200px;
+        margin-left: 550px;
+    }
+
+    .contact {
+        font-size: 48px;
+        margin-top: -270px;
+        margin-left: 950px;
+    }
+
+    .subcon {
+        margin-top: -30px;
+        padding-left: 950px;
+        font-size: 16px;
+        font-family: kanit;
+    }
 }
 
 /*--------------- Body 3 ----------------*/
